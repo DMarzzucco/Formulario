@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--container-->
+    <main class="conteiner">
+          <!--header-->
+          <header class="header">
+            <a href="#">
+                <span>New Travel</span>
+            </a>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list1">
+                        <a href="#signin" onclick="secion()" >Sign in</a>
+                    </li>
+                    <li class="menu-list2">
+                        <a href="#signup" onclick="secion()">Sign up</a>
+                    </li>
+                </ul>
+            </nav>
+          </header>
+          <!--contenet-->
+          <section id='signin' class="signin">
+            <div class="inciar-secion">
+                <input type="text" placeholder="User or Direction mail">
+                <input type="password" placeholder="Password">
+                <button>Sign In</button>
+                <ul>
+                    <li class="signup2">
+                        <a href="#signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+          </section> 
+          <section id='signup' class="signup">
+            <div class="registro">
+                <input type="text" placeholder="Name of User">
+                <input type="text" placeholder="Email Direction">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Verfication Password">
+                <button>Sing up</button>
+            </div>
+          </section>
+          <!--footer-->
+          <div class="footer">
+            <footer class="footer">
+                <p>© 2023 New Travel, Inc.
+                    Terms
+                    Privacy (Updated 08/2022)
+                </p>
+            </footer>
+          </div> 
+    </main> 
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,95 @@
+:root{
+    --max-width:1280px;
+    --min-width:320px;
+    --acent-color:blue; 
+}
+*{box-sizing:border-box;}
+html,body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+.conteiner{
+    display:flex;
+    flex-direction: column;
+    min-width: var(--min-width);
+    /*agregar una imagen de fondo usando un background*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header .footer .contenedores {
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: gray;
+    padding: 0 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+span{
+    font-size: 30px;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list1, .menu-list2{
+    display: inline-block;
+    border-radius: 30px;
+    border: 4px solid;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.menu-list1{
+    border-color: aqua;
+    margin-right: 10px;
+}
+.menu-list2{
+    border-color: blue;
+}
+.signin{
+    background-color: blueviolet;
+    height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    background-color: blue;
+    height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iniciar-secion, .registro{
+    text-align: center;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+}
